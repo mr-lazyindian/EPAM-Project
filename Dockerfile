@@ -1,7 +1,8 @@
 FROM node:12.2.0-alpine
-WORKDIR app
+MAINTAINER "EPAM PROJECT"
+WORKDIR webapp
 COPY . .
 RUN npm install
 RUN npm run test
-EXPOSE 8000
-CMD ["node","app.js"]
+EXPOSE 3000
+CMD ["node","server.js"]
