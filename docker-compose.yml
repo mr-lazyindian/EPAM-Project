@@ -1,4 +1,5 @@
 services:
-  web: bhargavsai08/movie-info:latest
-  ports:
-    - "3000":"3000"
+  web: 
+    image: bhargavsai08/movie-info:latest
+    ports:
+      - "3000":"3000"
