@@ -23,6 +23,7 @@
 **Step 5**: Creating a  free style project.
 
 **Step 6**: Configuring free style project.
+
         *Step 1*:  Specify Git hub project url.
         *Step 2*: Specify GitHub repository link in Source Code Management.
         *Step 3*:  Generating Key pair in EC2 instance `ssh-keygen`.
