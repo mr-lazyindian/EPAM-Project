@@ -2,6 +2,6 @@
 
 services:
   web:
-    image: trainwithshubham/node-todo-app-cicd:latest
+    image: bhargavsai08/movie-info:latest
     ports:
-      - "8000:8000"
+      - "3000:3000"
