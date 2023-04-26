@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Build and Test'){
             steps {
-                sh 'docker build . -t movie-info' 
+                sh 'docker build . -t bhargavsai08/movie-info:latest' 
             }
         }
         stage('Login and Push Image'){
@@ -17,7 +17,7 @@ pipeline {
                 echo 'logging in to docker hub and pushing image..'
                 withCredentials([usernamePassword(credentialsId:'dockerHub',passwordVariable:'dockerHubPassword', usernameVariable:'dockerHubUser')]) {
                     sh "docker login -u ${env.dockerHubUser} -p ${env.dockerHubPassword}"
-                    sh "docker push movie-info:latest"
+                    sh "docker push bhargavsai08/movie-info:latest"
                 }
             }
         }
