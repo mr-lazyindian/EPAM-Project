@@ -1,5 +1,3 @@
-
-
 services:
   web:
     image: bhargavsai08/movie-info:latest
