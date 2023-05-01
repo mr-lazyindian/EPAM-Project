@@ -1,0 +1,16 @@
+cidr_block="10.0.0.0/16"
+cidr_2 = "10.0.0.0/24"
+port = 22
+ports = 80
+ami = "ami-03a933af70fa97ad2"
+instance_type = "t2.micro"
+protocol = "SSH"
+protocols = "http"
+igw_name = "igw_Project"
+ec2_name = "EPAM_Project"
+vpc_name = "vpc_Project"
+sg_name = "sg_Project"
+sb_name = "sb_Project"
+elb_name = "elb_Project"
+s3_name = "01591"
+key_name = "Key_Project"
