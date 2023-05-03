@@ -3,4 +3,4 @@ services:
   web: 
     image: bhargavsai08/movie-info:latest
     ports:
-      - "4000:3000"
+      - "3000:3000"
