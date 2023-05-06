@@ -1,3 +1,6 @@
+![image](https://user-images.githubusercontent.com/87079719/236598136-9f0a8da8-bf86-4ec8-845b-f259b85849a9.png)
+
+
 **Step 1**: Uploaded project dependencies to GitHub.
 
 **Step 2**: In AWS, created an EC2 instance with ubuntu image and created a new key pair, allowed HTTP traffic.
